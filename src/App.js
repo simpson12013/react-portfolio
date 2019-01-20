@@ -4,20 +4,22 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
+import Section2 from "./Components/Section2";
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Section
-          title="Section 1"
-          subtitle={dummyText}
+          title="Robert Simpson"
+          subtitle={"Data Analyst"}
           dark={true}
           id="section1"
         />
         <Navbar />
         <Section
           title="Section 2"
-          subtitle={dummyText}
+          subtitle={<Section2/>}
           dark={false}
           id="section2"
         />

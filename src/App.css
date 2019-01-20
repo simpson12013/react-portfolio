@@ -6,7 +6,7 @@
   position: sticky;
   top: 0px;
   width: 100%;
-  height: 80px;
+  height: 10vh;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
@@ -14,6 +14,7 @@
 .nav-logo {
   height: 60px;
   width: 60px;
+  animation: App-logo-spin infinite 20s linear;
 }
 
 .nav-logo:hover {
@@ -41,7 +42,9 @@
   cursor: pointer;
 }
 
-.section {
+.section { height: 90vh;
+  /* position: sticky;
+  top: 0px; */
 }
 
 .section-dark {
@@ -53,4 +56,13 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
 }
