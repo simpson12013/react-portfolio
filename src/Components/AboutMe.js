@@ -1,8 +1,11 @@
 import React from "react";
 
-export default function Section2() {
+export default function AboutMe() {
   return (
+    <div>
+       {/* <div class="parallax"><div id="stars1"></div><div id="stars2"></div><div id="stars3"></div></div> */}
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -12,16 +15,11 @@ export default function Section2() {
     <div class="carousel-item active">
     <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-red">Short Background</h2>
-            <p class="text-faded mb-4">I come from a background in healthcare. As an undergraduate, 
-              I was on the pre-med track, but after shadowing doctors I decided to change trajectories
-               to a career path that suited my personality and skillset. This has lead me to pursue a 
-               career in data science. I am looking to break into the industry after graduating from KU’s 
-               data analytics program by leveraging my strong foundation in analytics and statistics garnered
-                from my BS in Biochemistry. I have discovered a new challenge and passion in programing.
-                 I love to unravel difficult problems, and pursue unique solutions. I am excited for new
-                  opportunities and challenges, and look forward to impacting health outcomes via data driven measures.   
+            <p class="text-faded mb-4">I obtained my Bachelor's Degree in 2018, with majors in Cello Performance and Music Theory. Balancing these two areas of study instilled in me the importance of time management, work ethic, and passion. Throughout my college career, I loved working within and modeling the abstract logic systems found in Music Theory. As I came to the decision to diverge from music as a career path, I searched for another outlet to complement my skills in creative problem-solving and analysis. This has led me to pursue a career in data science. Having graduated from KU’s data analytics program, I am excited to apply my newly-discovered passion for programming to the opportunities that lie ahead.
+
+  
             </p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">View Skills</a>
+            
           </div>
     </div>
     <div class="carousel-item">
@@ -39,6 +37,7 @@ export default function Section2() {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
   
         );

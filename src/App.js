@@ -4,29 +4,31 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import dummyText from "./DummyText";
-import Section2 from "./Components/Section2";
+import AboutMe from "./Components/AboutMe";
+import MainPage from "./Components/MainPage";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      
         <Section
           title="Robert Simpson"
-          subtitle={"Data Analyst"}
+          subtitle={<MainPage/>}
           dark={true}
           id="section1"
         />
         <Navbar />
         <Section
-          title="Section 2"
-          subtitle={<Section2/>}
+          title="About Me"
+          subtitle={<AboutMe/>}
           dark={false}
           id="section2"
         />
         <Section
           title="Section 3"
           subtitle={dummyText}
-          dark={true}
+          dark={false}
           id="section3"
         />
         <Section
@@ -38,7 +40,7 @@ class App extends Component {
         <Section
           title="Section 5"
           subtitle={dummyText}
-          dark={true}
+          dark={false}
           id="section5"
         />
       </div>

@@ -2,7 +2,7 @@
   --off-white: #fafafa;
 }
 .nav {
-  background-color: var(--off-white);
+  background-color: black;
   position: sticky;
   top: 0px;
   width: 100%;
@@ -30,11 +30,15 @@
   align-items: center;
   height: 100%;
 }
-
+.nav-items {
+  margin: 0;
+}
 .nav-item {
   display: inline;
   margin-left: 2rem;
   color: #333;
+  vertical-align: middle;
+  font-size: 1.5em;
 }
 
 .nav-item:hover {
@@ -43,20 +47,31 @@
 }
 
 .section { height: 90vh;
-  /* position: sticky;
-  top: 0px; */
+  background: radial-gradient(ellipse at bottom, #d3d5e2 0%, #121420 100%);
+  color: white;
+  z-index: 3;
+  position: relative;
 }
 
 .section-dark {
-  background: #333;
+  background-image: url(https://i.pinimg.com/originals/d2/c6/41/d2c6410e5041dee3d36748ac1c32f6ea.jpg);
+  z-index: 0;
   color: white;
+  position: sticky;
+  top: 0px;
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 40px;
+  font-size: 2em
 }
+
+.col-lg-10 {
+  margin-left: 0
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
