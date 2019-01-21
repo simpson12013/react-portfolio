@@ -7,6 +7,7 @@ import dummyText from "./DummyText";
 import AboutMe from "./Components/AboutMe";
 import MainPage from "./Components/MainPage";
 import MyLife from "./Components/MyLife";
+import Skills from "./Components/Skills";
 
 class App extends Component {
   render() {
@@ -21,25 +22,25 @@ class App extends Component {
         />
         <Navbar />
         <Section
-          title="About Me"
+          title="About"
           subtitle={<AboutMe/>}
           dark={false}
           id="section2"
         />
         <Section
-          title="Projects"
-          subtitle={dummyText}
+          title=""
+          subtitle={<Skills/>}
           dark={false}
           id="section3"
         />
         <Section
-          title="Resume"
+          title="Projects"
           subtitle={dummyText}
           dark={false}
           id="section4"
         />
         <Section
-          title="Contact"
+          title="Resume"
           subtitle={dummyText}
           dark={false}
           id="section5"

@@ -102,6 +102,26 @@
   text-align: center;
 }
 
+.row-skills {
+  margin-top: 0
+}
+
+.pic80{
+  width: 80px; 
+  height: 80px; 
+  border-radius: 10%
+}
+
+.pic100{
+  width: 100px; 
+  height: 80px; 
+  border-radius: 10%
+}
+
+.text-uppercase {
+  text-align: center!important;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
