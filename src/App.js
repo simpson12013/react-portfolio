@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
       
         <Section
-          title="Robert Simpson"
+          title=""
           subtitle={<MainPage/>}
           dark={true}
           id="section1"

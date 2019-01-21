@@ -69,7 +69,16 @@
 }
 
 .col-lg-10 {
-  margin-left: 0
+  color: rgb(77, 204, 255);
+  margin-left: 0;
+}
+
+.text-uppercase {
+  font-size: 2em;
+}
+
+.col-lg-8 {
+  margin-top: 24px
 }
 
 @keyframes App-logo-spin {
