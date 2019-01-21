@@ -23,7 +23,7 @@ export default function MyLife() {
           </div>
     </div>
     <div class="carousel-item">
-    <   iframe width="1120" height="630" src="https://www.youtube.com/embed/ZsfwAt03ifo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="youtube"><iframe width="1120" height="630" src="https://www.youtube.com/embed/ZsfwAt03ifo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </div>
     <div class="carousel-item">
         <div class="youtube"><iframe width="1120" height="630" src="https://www.youtube.com/embed/DvCB3o69Iec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
