@@ -14,7 +14,8 @@
 .nav-logo {
   height: 60px;
   width: 60px;
-  animation: App-logo-spin infinite 20s linear;
+  border-radius: 50%
+  /* animation: App-logo-spin infinite 20s linear; */
 }
 
 .nav-logo:hover {
@@ -32,17 +33,19 @@
 }
 .nav-items {
   margin: 0;
+  padding: 0;
 }
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: #333;
+  color: rgb(177, 177, 177);
   vertical-align: middle;
   font-size: 1.5em;
+  font-weight: 300;
 }
 
 .nav-item:hover {
-  color: black;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -95,7 +98,7 @@
   font-weight: 100;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -103,4 +106,4 @@
     transform: rotate(360deg);
   }
 
-}
+} */

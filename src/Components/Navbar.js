@@ -12,7 +12,7 @@ export default class Navbar extends Component {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <img
-            src={logo}
+            src='Headshot.png'
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
