@@ -28,7 +28,7 @@ class App extends Component {
           id="section2"
         />
         <Section
-          title=""
+          title="Skills"
           subtitle={<Skills/>}
           dark={false}
           id="section3"
