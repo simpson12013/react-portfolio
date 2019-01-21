@@ -6,6 +6,7 @@ import Section from "./Components/Section";
 import dummyText from "./DummyText";
 import AboutMe from "./Components/AboutMe";
 import MainPage from "./Components/MainPage";
+import MyLife from "./Components/MyLife";
 
 class App extends Component {
   render() {
@@ -26,22 +27,28 @@ class App extends Component {
           id="section2"
         />
         <Section
-          title="Section 3"
+          title="Projects"
           subtitle={dummyText}
           dark={false}
           id="section3"
         />
         <Section
-          title="Section 4"
+          title="Resume"
           subtitle={dummyText}
           dark={false}
           id="section4"
         />
         <Section
-          title="Section 5"
+          title="Contact"
           subtitle={dummyText}
           dark={false}
           id="section5"
+        />
+        <Section
+          title="My Life"
+          subtitle={<MyLife/>}
+          dark={false}
+          id="section6"
         />
       </div>
     );

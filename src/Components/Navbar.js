@@ -21,7 +21,7 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section1"
+                to="section2"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -33,7 +33,7 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section2"
+                to="section3"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -45,25 +45,13 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Contact Me
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
                 to="section4"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 4
+                Resume
               </Link>
             </li>
             <li className="nav-item">
@@ -75,7 +63,19 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 5
+                Contact
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section6"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                My Life
               </Link>
             </li>
           </ul>

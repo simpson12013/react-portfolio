@@ -13,7 +13,7 @@ export default function MainPage() {
                 <p class="text-faded mb-5">Analysis | Problem Solving | Visualization</p>
                 <p class="text-faded mb-5">Creative and critical thinker seeking <br></br>
                 new challenges and opportunities as a data analyst. <br></br>
-                Well versed in Python, JavaScript, SQL, <br></br>
+                Well-versed in Python, JavaScript, SQL, <br></br>
                 and a variety of visualization and statistical packages. </p>
             </div>
         </div>
