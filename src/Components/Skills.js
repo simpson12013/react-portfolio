@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div>
        <div class="container">
-          <div class="row">
+          <div class="row-skills-title">
             <div class="col-md-12 text-center">
               <h4 class="section-heading">Languages | Programs | Libraries</h4>
               <hr class="my-4"/>
@@ -51,6 +51,8 @@ export default function Skills() {
                 <h5 class="mb-3">Tableau</h5>
               </div>
             </div>
+            </div>
+            <div class="row-skills">
             <div class="d-inline-flex p-2 text-center">
               <div class="service-box mt-5 mx-auto">
                 <i><img className="pic80" id="hjc" src="img/pandas-logo.png"/></i>
@@ -86,7 +88,13 @@ export default function Skills() {
                 <i><img className="pic80" id="hjc" src="img/bash.png"/></i>
                 <h5 class="mb-3">GitBash</h5>
               </div>
-          </div>      
+          </div>  
+          <div class="d-inline-flex p-2 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <i><img className={"pic80" + " react-logo"} id="hjc" src="img/logo.svg"/></i>
+                <h5 class="mb-3">React</h5>
+              </div>
+          </div>        
         </div>        
       </div>
     </div>
