@@ -20,6 +20,12 @@ export default function Skills() {
                   </div>
             </div>
             <div class="d-inline-flex p-2 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <i><img className="pic80" id="hjc" src="img/mongo.png"/></i>
+                <h5 class="mb-3">MongoDB</h5>
+              </div>
+            </div>
+            <div class="d-inline-flex p-2 text-center">
                 <div class="service-box mt-5 mx-auto">
                   <i><img className="pic80" id="hjc" src="img/js.jpg"/></i>
                   <h5 class="mb-3">Javascript</h5>

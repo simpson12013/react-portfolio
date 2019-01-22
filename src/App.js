@@ -8,6 +8,7 @@ import AboutMe from "./Components/AboutMe";
 import MainPage from "./Components/MainPage";
 import MyLife from "./Components/MyLife";
 import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
 
 class App extends Component {
   render() {
@@ -35,7 +36,7 @@ class App extends Component {
         />
         <Section
           title="Projects"
-          subtitle={dummyText}
+          subtitle={<Projects/>}
           dark={false}
           id="section4"
         />

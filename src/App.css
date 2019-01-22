@@ -85,7 +85,7 @@
 
 .text-uppercase {
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .col-lg-8 {
@@ -95,7 +95,7 @@
 }
 
 .text-faded {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .youtube {
@@ -125,6 +125,11 @@
 
 .text-uppercase {
   text-align: center!important;
+}
+
+.nav-tabs {
+  text-align: center;
+  background-color: transparent;
 }
 
 @keyframes App-logo-spin {
