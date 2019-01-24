@@ -6,11 +6,6 @@ export default function AboutMe() {
        {/* <div class="parallax"><div id="stars1"></div><div id="stars2"></div><div id="stars3"></div></div> */}
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
   
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div class="col-lg-8 mx-auto text-center">
@@ -23,10 +18,10 @@ export default function AboutMe() {
           </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide"></img>
+    <img class="resume center-block" src="img/Resume-Thumbnail.png" alt="Card image cap"/>
+    <div class= "resume-button">
+      <a href="img/Blue and Red Header Theater Resume.pdf" target="_blank" class="btn btn-primary">Full Resume</a>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide"></img>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

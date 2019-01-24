@@ -23,7 +23,7 @@ class App extends Component {
         />
         <Navbar />
         <Section
-          title="About"
+          title="Background | Resume"
           subtitle={<AboutMe/>}
           dark={false}
           id="section2"
@@ -41,7 +41,7 @@ class App extends Component {
           id="section4"
         />
         <Section
-          title="Resume"
+          title="Contact Me"
           subtitle={dummyText}
           dark={false}
           id="section5"
