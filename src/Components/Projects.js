@@ -12,11 +12,11 @@ export default function Projects() {
 </nav>
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-  <img class="resume center-block project-pic" src="img/SarahsAngels.png" alt="Card image cap"/>
+  <img class="center-block project-pic" src="img/SarahsAngels.png" alt="Card image cap"/>
   <div class="project-description">Project Description: The purpose of this site is to provide an all-in-one resource for pet adoption. Interactive JavaScript mapping, regional search functionality, and a live Tableau Dashboard provide potential adopters with all the tools that they need in order to connect with the pet that is right for them.
 <br></br>Technologies/Frameworks Used: JavaScript, Leaflet Mapping, MySQL
 </div>
-  <a href="/react-portfolio/Projects/simpson12013.github.io/index.html" target="_blank" class="btn btn-primary resume-button">Project</a>
+  <a href="/react-portfolio/Projects/simpson12013.github.io/index.html" target="_blank" class="btn btn-primary project-button">Project</a>
   </div>
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
         <a href="/react-portfolio/Projects/D3/index.html" target="_blank" class="btn btn-primary">Project</a>
