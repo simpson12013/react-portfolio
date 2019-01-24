@@ -23,6 +23,36 @@ export default function AboutMe() {
       <a href="img/Blue and Red Header Theater Resume.pdf" target="_blank" class="btn btn-primary">Full Resume</a>
     </div>
     </div>
+
+    <div class="carousel-item">
+    <div class="col-lg-8 mx-auto text-center">
+        <div class="Connect">
+					<h3>Contact Info</h3>
+          <hr class="my-4"/>				
+						<p> Phone: (913) 515-2573 </p>
+            <p><span className="email">moc.liamg@31021nospmis :liame</span></p>
+            <div class="d-inline-flex p-2 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href= "https://www.github.com/simpson12013" target="_blank">
+                  <img className="pic80" id="hjc" src="img/github.png"/>
+                </a>
+                <h5 class="mb-3">Github</h5>
+              </div>
+            </div>
+            <div class="d-inline-flex p-2 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <a href= "https://www.linkedin.com/simpson12013" target="_blank">
+                  <img className="pic80" id="hjc" src="img/linkedin.png"/>
+                </a>
+                <h5 class="mb-3">Linkedin</h5>
+              </div>
+            </div>
+				</div>
+        
+        </div>
+    </div>
+    </div>
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -32,7 +62,6 @@ export default function AboutMe() {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
 </div>
   
         );

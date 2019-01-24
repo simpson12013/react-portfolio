@@ -9,6 +9,7 @@ import MainPage from "./Components/MainPage";
 import MyLife from "./Components/MyLife";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 class App extends Component {
   render() {
@@ -23,7 +24,7 @@ class App extends Component {
         />
         <Navbar />
         <Section
-          title="Background | Resume"
+          title="Background | Resume | Contact Me"
           subtitle={<AboutMe/>}
           dark={false}
           id="section2"
@@ -40,12 +41,12 @@ class App extends Component {
           dark={false}
           id="section4"
         />
-        <Section
+        {/* <Section
           title="Contact Me"
-          subtitle={dummyText}
+          subtitle={<Contact/>}
           dark={false}
           id="section5"
-        />
+        /> */}
         <Section
           title="My Life"
           subtitle={<MyLife/>}

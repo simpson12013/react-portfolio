@@ -28,6 +28,10 @@
 
 }
 
+.section-heading {
+  margin-top: 5%;
+}
+
 .nav-item-projects {
   display: inline;
   margin-left: 2rem;
@@ -122,6 +126,15 @@
   max-width: 55%;
 }
 
+.col-lg-4 {
+  margin-top:2rem;
+}
+
+.email {
+  unicode-bidi:bidi-override; 
+  direction: rtl;
+}
+
 .text-faded {
   font-weight: 200;
 }
@@ -181,6 +194,22 @@
   width: 10%;
 }
 
+.carousel-inner > .active > .connect {
+  margin-left:25%;
+  width: 50%;
+  height: 40%;
+  border-radius: 10%;
+  }
+
+.project-pic {
+  margin-top: 10px;
+}
+
+.project-description {
+  width: 50%;
+  font-size: .7em;
+  margin-left: 25%;
+}
 
 .text-uppercase {
   text-align: center!important;

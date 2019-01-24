@@ -15,10 +15,11 @@ export default function MyLife() {
     <div class="carousel-item active">
     <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-red">A Variety of Passions</h2>
-            <p class="text-faded mb-4">Outside of working with data, I spend my time throwing myself head-first into my passions.
-I enjoy applying myself fully to all aspects of my life. Whether I’m creating data visualizations, giving a cello recital, or broadcasting live on Twitch.tv as an online content-creator, I focus on positivity and self-growth at all times. There is nothing more thrilling for me than pushing my own limits and exceeding expectations.
+            <p class="text-faded mb-4">Outside of working with data, I enjoy throwing myself head-first into my passions.
+Whether I’m creating data visualizations, giving a cello recital, or broadcasting live on Twitch.tv as an online content-creator, I thrive on positivity and self-growth. There is nothing more thrilling for me than pushing my own limits and exceeding expectations.
+
 <br></br>
-I believe that a well-rounded background allows for new insights, greater adaptability, and more creative problem-solving.
+I believe that a well-rounded background allows for new insights, greater adaptability, and more creative problem-solving. 
 
   
             </p>
