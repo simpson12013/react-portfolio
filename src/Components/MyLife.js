@@ -15,7 +15,10 @@ export default function MyLife() {
     <div class="carousel-item active">
     <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-red">A Variety of Passions</h2>
-            <p class="text-faded mb-4">I obtained my Bachelor's Degree in 2018, with majors in Cello Performance and Music Theory. Balancing these two areas of study instilled in me the importance of time management, work ethic, and passion. Throughout my college career, I loved working within and modeling the abstract logic systems found in Music Theory. As I came to the decision to diverge from music as a career path, I searched for another outlet to complement my skills in creative problem-solving and analysis. This has led me to pursue a career in data science. Having graduated from KU’s data analytics program, I am excited to apply my newly-discovered passion for programming to the opportunities that lie ahead.
+            <p class="text-faded mb-4">Outside of working with data, I spend my time throwing myself head-first into my passions.
+I enjoy applying myself fully to all aspects of my life. Whether I’m creating data visualizations, giving a cello recital, or broadcasting live on Twitch.tv as an online content-creator, I focus on positivity and self-growth at all times. There is nothing more thrilling for me than pushing my own limits and exceeding expectations.
+<br></br>
+I believe that a well-rounded background allows for new insights, greater adaptability, and more creative problem-solving.
 
   
             </p>
