@@ -4,9 +4,7 @@ export default function Section({ title, subtitle, dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
-        <div className="title">
-          <h1>{title}</h1>
-        </div>
+          <h1 className="title">{title}</h1>
         <p>{subtitle}</p>
       </div>
     </div>

@@ -6,11 +6,6 @@ export default function MyLife() {
        {/* <div class="parallax"><div id="stars1"></div><div id="stars2"></div><div id="stars3"></div></div> */}
     <div id="carouselMyLife" class="carousel slide" data-ride="carousel" data-interval="false">
   
-  <ol class="carousel-indicators">
-    <li data-target="#carouselMyLife" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselMyLife" data-slide-to="1"></li>
-    <li data-target="#carouselMyLife" data-slide-to="2"></li>
-  </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div class="col-lg-8 mx-auto text-center">

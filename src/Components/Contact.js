@@ -27,7 +27,7 @@ export default function Contact() {
             <div class="row text-center">
                 <div class="col-lg-4 ml-auto text-center">
                     <i class="far fa-file-pdf fa-3x mb-3 sr-contact-2"></i>
-                    <p><a href="img/Blue and Red Header Theater Resume.pdf.pdf" target="_blank"> Resume <br></br></a></p>
+                    <p><a href="img/Blue and Red Header Theater Resume.pdf" target="_blank"> Resume <br></br></a></p>
                 </div>
             </div>
 

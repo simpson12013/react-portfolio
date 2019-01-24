@@ -3,7 +3,7 @@ import React from "react";
 export default function MainPage() {
   return (
     <div>
-        <div class="row">
+        <div class="row-main">
             <div class="col-lg-10">
                 <h2 class="text-uppercase">
                 ROBERT SIMPSON

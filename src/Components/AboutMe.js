@@ -41,7 +41,7 @@ export default function AboutMe() {
             </div>
             <div class="d-inline-flex p-2 text-center">
               <div class="service-box mt-5 mx-auto">
-                <a href= "https://www.linkedin.com/simpson12013" target="_blank">
+                <a href= "www.linkedin.com/in/simpson12013" target="_blank">
                   <img className="pic80" id="hjc" src="img/linkedin.png"/>
                 </a>
                 <h5 class="mb-3">Linkedin</h5>

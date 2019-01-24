@@ -16,10 +16,10 @@ export default function Projects() {
   <div class="project-description">Project Description: The purpose of this site is to provide an all-in-one resource for pet adoption. Interactive JavaScript mapping, regional search functionality, and a live Tableau Dashboard provide potential adopters with all the tools that they need in order to connect with the pet that is right for them.
 <br></br>Technologies/Frameworks Used: JavaScript, Leaflet Mapping, MySQL
 </div>
-  <a href="/Projects/simpson12013.github.io/index.html" target="_blank" class="btn btn-primary resume-button">Project</a>
+  <a href="/react-portfolio/Projects/simpson12013.github.io/index.html" target="_blank" class="btn btn-primary resume-button">Project</a>
   </div>
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-        <a href="/Projects/D3/index.html" target="_blank" class="btn btn-primary">Project</a>
+        <a href="/react-portfolio/Projects/D3/index.html" target="_blank" class="btn btn-primary">Project</a>
   </div>
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
         <a href="https://github.com/simpson12013/simpson12013.github.io/tree/master/Breed%20Detector" target="_blank" class="btn btn-primary">Git Repo</a>
