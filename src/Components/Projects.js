@@ -20,7 +20,7 @@ export default function Projects() {
   </div>
   
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-    <img class="center-block project-pic" src="img/D3-scatter.png" alt="Card image cap"/>
+    <img class="center-block project-pic" src="img/d3-scatter.png" alt="Card image cap"/>
     <div class="project-description">Project Description: An interactive scatterplot that utilizes Javascript and D3.js to bring viewers specific information at the click of a button. Six datasets can be swapped out and compared, and data points present tooltips when hovered over with the cursor.
     <br></br>Technologies/Frameworks Used: JavaScript, D3.js, HTML/CSS</div>
     <a href="/react-portfolio/Projects/D3/index.html" target="_blank" class="btn btn-primary project-button">Project</a>
