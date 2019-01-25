@@ -11,6 +11,11 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 
+var siteWidth = 1280;
+var scale = Screen.width /siteWidth
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+
 class App extends Component {
   render() {
     return (
