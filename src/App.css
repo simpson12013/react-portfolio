@@ -203,27 +203,27 @@
 }
 
 .carousel-inner > .active > img {
-  margin-top: 3%;
+  margin-top: 10%;
   margin-left:30%;
   width: 40%;
-  height: 60vmin;
-  border-radius: 10%;
+  height: 30vmin;
+  border-radius: 2%;
   }
   
 .carousel-inner > .item > img {
-  margin-top: 3%;
+  margin-top: 10%;
   margin-left:30%;
   width: 40%;
-  height: 60vmin;
-  border-radius: 10%;
+  height: 30vmin;
+  border-radius: 2%;
   }
 
 .resume {
-  margin-top: 3%;
+  margin-top: 10%;
   margin-left:30%;
     width: 40%;
-    height: 60vmin;
-    border-radius: 10%;
+    height: 30vmin;
+    border-radius: 2%;
 }
 
 .carousel-inner > .active > .resume-button {
@@ -234,7 +234,7 @@
 .resume-button {
 
   height: 4.5vmin;
-  margin-top: 1vmin;
+  margin-top: 2vmin;
   margin-left: 45%;
   width: 10%;
   justify-content: space-between;
